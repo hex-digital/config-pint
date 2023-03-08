@@ -2,9 +2,8 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/hex-digital/config-pint.svg?style=flat-square)](https://packagist.org/packages/hex-digital/config-pint)
 [![Total Downloads](https://img.shields.io/packagist/dt/hex-digital/config-pint.svg?style=flat-square)](https://packagist.org/packages/hex-digital/config-pint)
-![GitHub Actions](https://github.com/hex-digital/config-pint/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Shareable config for Laravel Pint.
 
 ## Installation
 
@@ -17,13 +16,7 @@ composer require hex-digital/config-pint
 ## Usage
 
 ```php
-// Usage description here
-```
-
-### Testing
-
-```bash
-composer test
+./vendor/bin/pint --config vendor/hex-digital/config-pint/pint.json
 ```
 
 ### Changelog
