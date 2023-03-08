@@ -1,4 +1,4 @@
-# Very short description of the package
+# Hex's config for Laravel Pint
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/hex-digital/config-pint.svg?style=flat-square)](https://packagist.org/packages/hex-digital/config-pint)
 [![Total Downloads](https://img.shields.io/packagist/dt/hex-digital/config-pint.svg?style=flat-square)](https://packagist.org/packages/hex-digital/config-pint)
@@ -46,7 +46,3 @@ If you discover any security related issues, please email ben@sherred.co.uk inst
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## PHP Package Boilerplate
-
-This package was generated using the [PHP Package Boilerplate](https://laravelpackageboilerplate.com) by [Beyond Code](http://beyondco.de/).
