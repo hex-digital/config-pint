@@ -1,0 +1,42 @@
+{
+    "name": "hex-digital/config-pint",
+    "description": "Hex's config for Laravel Pint",
+    "keywords": [
+        "hex-digital",
+        "config-pint"
+    ],
+    "homepage": "https://github.com/hex-digital/config-pint",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ben Sherred",
+            "email": "ben@sherred.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HexDigital\\ConfigPint\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HexDigital\\ConfigPint\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
